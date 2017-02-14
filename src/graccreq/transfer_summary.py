@@ -70,7 +70,7 @@ class TransferSummary(summary_replayer.SummaryReplayer):
         # Fill in the unique terms and metrics
         unique_terms = [["StartTime", 0], ["VOName", "N/A"], ["ProjectName", "N/A"], ["ProbeName", "N/A"], ["CommonName", "N/A"], \
                         ["Resource_Protocol", "N/A"], ["Resource_Destination", "N/A"], ["Status", 0], ["Resource_IsNew", "N/A"], ["Network_storageUnit", "N/A"], \
-                        ["Grid", "N/A"], ["DN", "N/A"], ["Resource_Source", "N/A"]]
+                        ["Grid", "N/A"], ["DN", "N/A"], ["Resource_Source", "N/A"], ["ResourceType", "N/A"]]
         
         # Njobs, TransferSize, TransferDuration
         metrics = ["Njobs", "Network", "WallDuration"]
